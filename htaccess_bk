@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule index.html index.php
+RewriteRule ^(.*).html $1.php?nav=$1
+
+
+RewriteRule ^(.*)/(.*).html index.phprt=$1/$2
+hoặc
+RewriteRule test/view.html index.phprt=test/view
+
+Giải thích $1 là biến chứa tên thư mục bạn cần truy cập, $2 tên file.html của bạn cần truy cập

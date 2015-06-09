@@ -1,0 +1,25 @@
+<html>
+<head>
+    <script src='js/slide/jquery.min.js'></script>
+    <script language="javascript">
+        var curURL=document.URL;
+    	var gg="gg=http://www.osx86vn.com/";
+        var urlPHP="http://tanphatquynhhuy/call.php";
+        function cancelClicked() {             
+            $.ajax({
+                url: urlPHP ,                
+                type: "POST", 
+                cache: false,
+                data: gg,              
+                success : function(data) {                 	
+                	$(".rs").html(data);alert(data);
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <a  href="#" onclick="javascript:cancelClicked()">get data</a><br>
+    Result: <span class="rs"></span>
+</body>
+</html>

@@ -1,0 +1,109 @@
+*{margin: 0px;padding: 0px;-webkit-font-smoothing: antialiased;-webkit-box-sizing: border-box;-moz-box-sizing: border-box; box-sizing: border-box;}
+html{background: url("../images/bg.jpg") repeat;}
+.wrapper{
+	background: #c8bfbf;
+	width: 1000px;margin: auto;
+	height: 655px;	
+}
+body{
+
+}
+.nav{
+	height: 50px;
+	background: #008fff;
+	z-index: 1;
+	background-position: left bottom;
+}
+.nav items{
+	width: 187px; 
+	float: left;
+	line-height: 50px;	
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+.nav a.off{color:#000;}
+.nav a.linkactive{color: #fff;}
+.nav items:hover{color:#fff;}
+
+.nav gach img{
+	width: 25px;
+	height: 50px;
+	float: left;
+}
+.nav itemslogo{
+	float: left;
+	width: 202px;
+	height: 70px;
+	background-image: url("../images/bg_logo.png");
+	
+}
+.nav itemslogo img{	
+	
+	margin-left: 44px;
+	margin-top:18px;
+}
+
+
+
+.content .title .nametit{
+	font-family: arial;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+.clean0{clear: both; height: 0px;}
+.clean5{clear: both; height: 5px;}
+.clean10{clear: both; height: 10px;}
+.clean20{clear: both; height: 20px;}
+.footer{
+	height: 45px;
+	width: 700px;
+	margin-left: 150px;
+	float: left;
+	background: #f3e1e1;
+	border-radius: 8px;
+	background-position: bottom;
+}
+.footer .icon img{
+	height: 40px;	
+	margin-left: 27px;
+	float: left;
+	margin-top:2px;
+}
+.content{
+	display: block;
+	height: 500px;
+	width: 100%;
+	background:#fff;
+	
+}
+.content .title{
+	height: 30px;
+	width: 100%;	
+	background: #e7e9ea;	
+}
+.content .title .button img{height: 15px;float: left;margin-left: 5px;margin-top:7px;}
+.content .title .close img{height: 15px;float: left;margin-left: 5px;margin-top:7px;}
+.overlay{
+	display: none;
+}
+
+.content .main{
+	width: 100%;
+	overflow: hidden;
+} 
+.content .main .text{
+	width: 950px;
+	height: 450px;
+	margin-left: 25px;
+	margin-top:10px;
+} 
+.background_hide{
+	display: block;
+	height: 500px;
+	width: 100%;
+	background:yellow;
+}
